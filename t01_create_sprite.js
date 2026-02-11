@@ -8,6 +8,13 @@
 // setup()
 /*******************************************************/
 function setup() {
+	cnv = new Canvas(600, 650);
+	circle = new Sprite(80, 50, 100);
+	circle.color = 'blue';
+	rectangle = new Sprite(500, 90, 200, 300);
+
+rectangle.color = 'yellow';
+
 	console.log("setup: ");
 
 }
@@ -16,6 +23,7 @@ function setup() {
 // draw()
 /*******************************************************/
 function draw() {
+	background('yellow'); 
 	
 }
 
