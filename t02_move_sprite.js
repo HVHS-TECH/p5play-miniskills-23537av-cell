@@ -7,7 +7,13 @@
 /*******************************************************/
 // setup()
 /*******************************************************/
-function setup() {
+function setup() { 
+	cnv = new Canvas(600, 650);
+	rectangle = new Sprite(200,280 , 100, 250, '80');
+	rectangle.color = 'green';
+	rectangle.rotationSpeed = 2;
+	rectangle.vel.x = 2;
+
 	console.log("setup: ");
 
 }
@@ -15,7 +21,8 @@ function setup() {
 /*******************************************************/
 // draw()
 /*******************************************************/
-function draw() {
+function draw() { 
+	background('grey');
 	
 }
 

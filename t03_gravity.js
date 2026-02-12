@@ -8,6 +8,11 @@
 // setup()
 /*******************************************************/
 function setup() {
+	cnv = new Canvas(650, 600);
+	world.gravity.y = 10;
+	square = new Sprite(200,250, 100,150, '60');
+	square.color = 'orange';
+	square.rotationSpeed = 2;
 	console.log("setup: ");
 
 }
@@ -16,6 +21,7 @@ function setup() {
 // draw()
 /*******************************************************/
 function draw() {
+	background('grey');  
 	
 }
 

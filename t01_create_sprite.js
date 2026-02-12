@@ -9,12 +9,11 @@
 /*******************************************************/
 function setup() {
 	cnv = new Canvas(600, 650);
-	circle = new Sprite(80, 50, 100);
+	rectangle = new Sprite(295,280, 150, 150);
+	rectangle.color = 'yellow';
+	circle = new Sprite(112, 100, 120);
 	circle.color = 'blue';
-	rectangle = new Sprite(500, 90, 200, 300);
-
-rectangle.color = 'yellow';
-
+	
 	console.log("setup: ");
 
 }
@@ -23,7 +22,7 @@ rectangle.color = 'yellow';
 // draw()
 /*******************************************************/
 function draw() {
-	background('yellow'); 
+	background('grey'); 
 	
 }
 
