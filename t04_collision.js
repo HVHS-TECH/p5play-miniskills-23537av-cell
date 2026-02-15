@@ -16,6 +16,7 @@ function setup() {
     rectangle.rotationSpeed = 2;
     rectangle.vel.x = 2;
     platform_1 = new Sprite(350, 300, 200, 160, 'D');
+    
 
 
 	console.log("setup: ");
