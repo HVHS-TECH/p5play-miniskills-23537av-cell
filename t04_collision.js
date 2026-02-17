@@ -16,6 +16,17 @@ function setup() {
     rectangle.rotationSpeed = 2;
     rectangle.vel.x = 2;
     platform_1 = new Sprite(350, 300, 200, 160, 'D');
+
+    platform_1 = new Sprite(40, 700, 400, 20, 'D');
+
+    platform_1 = new Sprite(70, 60, 400, 20, 'D');
+
+    platform_1 = new Sprite(30, 30, 1000, 20, 'D');
+    
+    platform_1 = new Sprite(70, 90, 200, 50, 'D');
+    
+    
+
     
 
 

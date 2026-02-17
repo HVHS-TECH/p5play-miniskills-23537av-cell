@@ -9,12 +9,12 @@
 /*******************************************************/
 function setup() {
 	cnv = new Canvas(700, 850);
-	wallLH  = new Sprite(400, height/2, 8, height, '400');
+	wallLH  = new Sprite(350 , height/0.673 ,800, height, 'k');
 	wallLH.color = 'black';
-    wallRH  = new Sprite(200,295, 180, 150, '600');
-    wallTop = new Sprite(150, 300, 200, 150, '100');
-    wallBot = new Sprite(500, 750, 400, 300, '100');
-	ball_1 = new Sprite(width/2, height/2, 50, '200');
+    wallRH  = new Sprite(5,5, 2000, 15, 'k');
+    wallTop = new Sprite(5, 9, 15, 2000, 'k');
+    wallBot = new Sprite(695, 30, 15, 2000, 'k');
+	ball_1 = new Sprite(width/5, height/2, 50, 'd');
     ball_1.color = 'cyan';
     ball_1.vel.x = 2;
     ball_1.bounciness = 1;
