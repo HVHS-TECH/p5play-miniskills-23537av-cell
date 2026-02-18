@@ -8,7 +8,7 @@
 // setup()
 /*******************************************************/
 function setup() {
-	cnv = new Canvas(600, 650);
+	cnv = new Canvas(700, 850);
 	rectangle = new Sprite(295,280, 150, 150);
 	rectangle.color = 'yellow';
 	circle = new Sprite(112, 100, 120);

@@ -1,19 +1,19 @@
 /*******************************************************/
-// P5.play: t02_move_sprite
-// Move a sprite
-// Written by ???
+// P5.play: t01_create_sprite
+// Create a sprite
+/// Written by ???
 /*******************************************************/
 	
 /*******************************************************/
 // setup()
 /*******************************************************/
-function setup() { 
-	cnv = new Canvas(600, 650);
-	rectangle = new Sprite(200,280 , 100, 250, '80');
-	rectangle.color = 'green';
+function setup() {
+	cnv = new Canvas(700, 850);
+	rectangle = new Sprite(200,250 , 150, 100, 'd');
+	rectangle.color = 'ccc';
 	rectangle.rotationSpeed = 2;
-	rectangle.vel.x = 2;
-
+    rectangle.vel.x = 2;
+	
 	console.log("setup: ");
 
 }
@@ -21,8 +21,8 @@ function setup() {
 /*******************************************************/
 // draw()
 /*******************************************************/
-function draw() { 
-	background('grey');
+function draw() {
+	background('grey'); 
 	
 }
 
