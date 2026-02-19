@@ -24,39 +24,15 @@ function setup(){
     cnv = new Canvas(700, 850);
     wallLH  = new Sprite(0, height/2, 8, height, 'k');
 	ball_1 = new Sprite(width/2, height/2, 50, 'd');
+    alienGroup = new Group();
 	for (i = 5; i < 50; i++) {
        alien = new Sprite(7, 8) ;
        alien.vel.x = 3;
        alien.vel.y = 4;
        alien.bounciness = 1;
-       alien.friction = 0;
-
-	   cnv = new Canvas(750, 800);
-	   wallLH  = new Sprite(0, height/2, 8, height, 'k');
-	   ball_1 = new Sprite(width/2, height/2, 50, 'd');
-	   // Create a group for the aliens
-	   // alienGroup = new Group( );
-	   for (i = 5; i <50; i++) {
-         alien = new Sprite(50);
-         alien.vel.x = 3;
-         alien.vel.y = 4;
-         alien.bounciness = 1;
-         alien.friction = 0;
-
-         cnv = new Canvas(750, 800);
-        wallLH  = new Sprite(0, height/2, 8, height, 'k');
-        ball_1 = new Sprite(width/2, height/2, 50, 'd');
-        // Create a group for the aliens
-        // alienGroup = new Group( );
-        for (i = 4; i < 50; i++) {
-        alien = new Sprite(50);
-        alien.vel.x = 3;
-        alien.vel.y = 4;
-        alien.bounciness = 1;
-        alien.friction = 0;
+       alien.friction = 0;  
         alienGroup.add(alien);
     }
-
     
 	console.log("setup: ");
 
@@ -66,10 +42,8 @@ function setup(){
 // draw()
 /*******************************************************/
 function draw() {
-	background('grey'); 
-	background('grey'); 
-    background('grey'); 
-}
+    background('grey');}
+	
 
 /*******************************************************/
 //  END OF APP
