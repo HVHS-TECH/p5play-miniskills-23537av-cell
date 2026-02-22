@@ -24,7 +24,6 @@ square.moveTo(xPos, yPos, n);
 
 	console.log("setup: ");
 
-}
 	
 /*******************************************************/
 // draw()
